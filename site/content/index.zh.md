@@ -15,7 +15,7 @@ registry:
   docs: https://github.com/soundadam/tonescope#readme
 release:
   version: "0.1.2"
-  license: MIT OR Apache-2.0
+  license: Apache-2.0
 modules:
   - type: promo
     description: 对着麦克风唱、弹或者说话，声音在对数频率轴上滚成瀑布图：每个八度一样高，每个音落在自己的音阶线上。{title} 把听到的音高画成一条线穿过画面，同时读出音名和音分偏差。
@@ -41,7 +41,7 @@ modules:
         label: "当前版本 · {license}"
 
   - type: section
-    title: 看到的是音，不只是频率
+    title: 音阶线与悬停读数
     index: 1/3
     lede: 选好主音和音阶（大调、三种小调、五种调式、五声、布鲁斯、全音阶），{title} 把音阶线横贯瀑布图，主音高亮，A4 可在 400–480 Hz 间调。鼠标悬停任一点，显示频率、最近音名与音分、该点 dB、距今多久、该列音高；打开泛音线，还能看到该点 2–8 次泛音落在哪里。
 
@@ -56,7 +56,7 @@ modules:
     lede: 泛音比基音还响时，音高读数仍停在基音上，不跳八度。电平低于门限的帧不测音高，静音不会变成一条乱跑的线。右侧实时频谱同时标出最强频率和检测到的音高，两者不一致时一眼可见。
 
   - type: section
-    title: 快到可以跟着唱
+    title: 渲染与延迟
     index: 3/3
     lede: 每帧只给新列着色，就地更新纹理。帧率跟随显示器，可限 60 或 30 fps，输入持续安静时自动降帧。Performance 面板拆出每帧 CPU，并估算声音到屏幕的延迟，分为设备、排队、分析窗、显示四段。空格暂停，暂停后的画面仍可改频率范围、缩放。
 ---
