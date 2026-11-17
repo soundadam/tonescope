@@ -15,7 +15,7 @@ registry:
   docs: https://github.com/soundadam/tonescope#readme
 release:
   version: "0.1.2"
-  license: MIT OR Apache-2.0
+  license: Apache-2.0
 modules:
   - type: promo
     description: Sing, play or speak into the microphone and watch it as a waterfall on a log-frequency axis, where every octave is the same height and every note sits on its own scale line. {title} draws the pitch it hears as a line through the picture and reads it out as a note name and cents.
