@@ -41,7 +41,7 @@ modules:
         label: "Current release · {license}"
 
   - type: section
-    title: See the note, not just the frequency
+    title: Scale lines and hover readout
     index: 1/3
     lede: Pick a tonic and a scale (major, three minors, five modes, pentatonics, blues, whole tone) and {title} draws its lines across the waterfall, tonic highlighted, A4 tunable from 400 to 480 Hz. Hover anywhere for frequency, nearest note and cents, level in dB, how long ago, and the pitch of that column; turn on harmonic lines to see where the 2nd to 8th partials of that point land.
 
@@ -56,7 +56,7 @@ modules:
     lede: When an overtone is stronger than the fundamental, the pitch readout stays on the fundamental instead of jumping an octave. Frames below the level gate are not measured at all, so silence does not turn into a wandering line. The live spectrum on the right marks both the strongest frequency and the detected pitch, so you can see when they disagree.
 
   - type: section
-    title: Fast enough to sing along to
+    title: Rendering and latency
     index: 3/3
     lede: Each frame colours only the new columns and updates the texture in place. The frame rate follows the display, can be capped at 60 or 30 fps, and drops on its own when the input stays quiet. The Performance panel breaks down CPU per frame and estimates the delay from sound to screen, split into device, queue, analysis window and display. Space pauses, and a paused picture can still be re-ranged and zoomed.
 ---
