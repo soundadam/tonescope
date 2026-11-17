@@ -15,7 +15,7 @@ registry:
   docs: https://github.com/soundadam/tonescope#readme
 release:
   version: "0.1.2"
-  license: MIT OR Apache-2.0
+  license: Apache-2.0
 modules:
   - type: promo
     description: 对着麦克风唱、弹或者说话，声音在对数频率轴上滚成瀑布图：每个八度一样高，每个音落在自己的音阶线上。{title} 把听到的音高画成一条线穿过画面，同时读出音名和音分偏差。
